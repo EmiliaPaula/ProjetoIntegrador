@@ -1,0 +1,252 @@
+/*geral*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color:blueviolet;
+    border: none;
+  }
+ 
+  body { background-image: url('../img/fundo.jpg');
+        background-size: cover;
+        /*background-position-y: -200px;*/
+ }
+
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a{
+     font-size: .8rem;
+}
+
+a:hover{
+    color: rgb(7, 248, 248);
+}
+
+/*container-login*/
+
+#login-container{
+    position: absolute;
+    width: 400px;
+    margin-left: 55%;
+    margin-right: 18%;
+    padding: 20px 30px;
+    margin-top: 13vh;
+    border-radius: 10px;
+    text-align: center;
+    border: 5px solid violet;
+    padding-top: 5%;
+    
+    
+    
+}
+
+#banner {
+    position: absolute;
+    width: 600px;
+    height: 550px;
+    margin-left: 11.5%;
+    margin-right: 30%;
+    padding: 20px 10px;
+    margin-top: 2.8%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: violet;
+    padding-top: 5%;
+
+    text-align: left;
+    align-items: left;
+    color: white;
+    
+}
+
+img{
+    width: 580px;
+    height: 380px;
+    
+}
+
+/*formulario*/
+
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;   
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+    border-bottom: 2px solid; color: black;
+    padding: 2px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#forgot-password{
+    text-align: right;
+    display: block;
+}
+
+input [type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color:white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+input [type="submit"]: :hover {
+    background-color: blue;
+
+}
+
+.submeter{
+    background-color: violet;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color:white;
+    cursor: pointer;
+}
+
+.submeter:hover {
+    background-color: blue;
+}
+
+.texto {
+    color: #8C8C8C;
+}
+
+body {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+  }
+  
+  .logo {
+    color: #FFFFFF;
+    font-size: 60px;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    color: #FFFFFF;
+    background: #b8b8b8;
+    }
+  
+    .apresentacao {
+      width: 100%;
+      height: 20px;
+      justify-content: center;
+    }
+  
+    .continue-button button {
+      width: 100%;
+      margin-top: 2.5rem;
+      border: none;
+      background-color: #C5C1C1;
+      padding: 0.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #C5C1C1;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .continue-button button:hover {
+    background-color: #eeeeee75;
+  }
+  
+  .continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #000;
+  }
+  
+  .form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+  }
+  
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+  }
+  
+  .input-box input {
+    margin: 0.6rem 0;
+    padding: 0.4rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 1rem;
+  }
+  
+  .input-box input:hover {
+    background-color: #eeeeee75;
+  }
+  
+  .input-box input:focus-visible {
+    outline: 1px solid #eeeeee75;
+  }
+  
+  .input-box label,
+  .gender-title h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000c0;
+  }
+  
+  .input-box input::placeholder {
+    color: #000000be;
+  }
+  
+  .continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #C5C1C1;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
