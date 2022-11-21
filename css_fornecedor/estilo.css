@@ -1,0 +1,164 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 5% 50% 30%;
+  background-color: #ffffff;
+}
+
+.item1 {
+  background-color: #03658C;
+  display: grid;
+  color: #ffffff;
+  font-size: 24px;
+  grid-template-columns: 5% auto auto;
+  align-items: center;
+}
+
+.item2 {
+  display: flex;
+  flex-direction: column;
+  height: 83vh;
+  background-color: #03658C;
+}
+
+.item3 {
+  font-size: 40px;
+  color: #959292;
+  align-self: center;
+  background-color: #FFFFFF;
+  padding: 10%;
+  text-align: center;
+}
+
+.item4 {
+  background-color: #03658C;
+  color: #FFFFFF;
+  margin: 5%;
+  padding-top: 50px;
+
+}
+
+svg {
+  fill: rgba(255, 255, 255);
+  background-color: #03658C;
+  width: 48px;
+  height: 48px;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+html {
+  background-color: #FFFFFF;
+}
+
+.item2 div {
+  width: 100%;
+  margin-left: 15%;
+}
+
+.div3 {
+  align-items: right;
+  align-items: flex-end;
+  text-align: right;
+  padding: 2%;
+  margin-left: 2%;
+}
+
+.casinha{
+  
+  align-items: center;
+  text-align: center;
+}
+
+.conteudo{
+  
+  
+
+  margin-top: 8%;
+  margin-left: 11%;
+
+  
+}
+
+.texto{
+  font-size: 40px;
+  position: absolute;
+  color: #FFFFFF;
+}
+
+.busca{
+  margin-top: 11.5%;
+  padding-left: 8px;
+  margin-left: 8%;
+  width: 250px;
+  height: 38px;
+  border: 2px solid #FFFFFF;
+  opacity: 0.7;
+}
+
+.lupa{
+  position: absolute;
+  margin-top: 4.9%;
+  margin-left: 0.2%;
+
+  width: 47px;
+  height: 38px;
+
+  
+}
+
+.tablee{
+  margin-top: 4%;
+}
+
+table{
+  position: absolute;
+  border: 1px solid #03658C;
+  height: 35px;
+  width: 65%;
+  text-align: center;
+  align-items: center;
+  padding-left: -100px;
+  border-collapse: collapse;
+
+}
+
+th, tr{
+  text-align: center;
+  border: 1px solid #03658C;
+  border-collapse: collapse;
+}
+
+textarea {
+  width: 900px;
+  height: 200px;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.botoes{
+  position: absolute;
+  display: grid;
+  grid-row: inherit;
+  row-gap: 10px;
+  margin-left: 68%;
+  margin-top: 4%;
+  
+}
+
+.inputos{
+  width: 220px;
+  height: 56px;
+  background-color: #03658C;
+  border-radius: 15px;
+  color: #FFFFFF;
+}
