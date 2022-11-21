@@ -1,3 +1,8 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 5% 50% 30%;
@@ -28,6 +33,13 @@
   background-color: #ffffff;
   padding: 10%;
   text-align: center;
+  margin-right: -350px;
+
+  margin-top: 5%;
+
+  margin-left: 220px;
+
+ 
 }
 
 svg {

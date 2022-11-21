@@ -92,7 +92,7 @@ html {
 .texto{
   font-size: 40px;
   position: absolute;
-  color: #FFFFFF;
+  color: #03658C;
 }
 
 .busca{
@@ -101,7 +101,7 @@ html {
   margin-left: 8%;
   width: 250px;
   height: 38px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #03658C;
   opacity: 0.7;
 }
 
